@@ -1,7 +1,13 @@
 {
   "name": "html-sanitizer",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "test": "jest",
     "build": "tsc",
@@ -9,8 +15,16 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "prepare": "husky install"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "html",
+    "sanitizer",
+    "decorator",
+    "typescript",
+    "reflect-metadata",
+    "sanitize-html",
+    "open-source"
+  ],
+  "author": "nileshkr9919@gmail.com",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -32,5 +46,8 @@
     "prettier": "^3.4.2",
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
   }
 }
