@@ -2,11 +2,11 @@
 
 A TypeScript decorator for sanitizing HTML content in request bodies.
 
-## Installation
+<!-- ## Installation
 
 ```bash
 npm install html-sanitizer
-```
+``` -->
 
 ## Usage
 
